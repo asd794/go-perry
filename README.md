@@ -71,6 +71,7 @@ Each directory generally represents a technical topic, implementation exercise, 
 | `unsafe` | `unsafe` package and low-level memory experiments. |
 | `worker_pool` | Worker pool pattern examples. |
 | `workerpool` | Additional worker pool implementations and experiments. |
+| `file_tracker` | Tracking filesystem events via kernal notifications|
 
 The topic list is continuously evolving. New topics are welcome.
 
