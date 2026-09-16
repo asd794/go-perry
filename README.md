@@ -74,6 +74,7 @@ Each directory generally represents a technical topic, implementation exercise, 
 | `file_tracker` | Tracking filesystem events via kernal notifications|
 | `x509` | X.509 certificate parsing and inspection examples. |
 | `zero-copy` | Zero copy between two process communication |
+| `direct-io`| Direct hardware I/O experiments bypassing OS page cache |
 
 
 The topic list is continuously evolving. New topics are welcome.
