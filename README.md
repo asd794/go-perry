@@ -72,7 +72,10 @@ Each directory generally represents a technical topic, implementation exercise, 
 | `worker_pool` | Worker pool pattern examples. |
 | `workerpool` | Additional worker pool implementations and experiments. |
 | `file_tracker` | Tracking filesystem events via kernal notifications|
+| `x509` | X.509 certificate parsing and inspection examples. |
 | `zero-copy` | Zero copy between two process communication |
+
+
 The topic list is continuously evolving. New topics are welcome.
 
 ## Contributing
