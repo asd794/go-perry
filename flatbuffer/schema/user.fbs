@@ -1,0 +1,10 @@
+namespace example;
+
+table User {
+    id:uint64;
+    name:string;
+    age:uint8;
+    active:bool;
+}
+
+root_type User;

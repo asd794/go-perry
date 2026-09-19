@@ -77,6 +77,7 @@ Each directory generally represents a technical topic, implementation exercise, 
 | `direct-io`| Direct hardware I/O experiments bypassing OS page cache |
 | `ebpf` | eBPF examples for tracing process execution and filtering network packets at the kernel level. |
 | `iouring`| liburing based async TCP echo server |
+| `flatbuffer` | Schema-based binary serialization with direct buffer access |
 
 The topic list is continuously evolving. New topics are welcome.
 
