@@ -5,7 +5,7 @@
 # go-perry
 
 A collection of Golang experiments, and topic-based examples.
-Each directory generally represents a technical topic, implementation exercise, or experiment focused on a specific Go mechanism.The project is intended not only for learning Go, but also for exploring topics such as concurrency, networking, runtime internals, performance, systems programming, and other related areas.
+Each directory generally represents a technical topic, implementation exercise, or experiment focused on a specific Go mechanism.
 
 ## Topics
 
@@ -72,6 +72,7 @@ Each directory generally represents a technical topic, implementation exercise, 
 
 | Directory | Description |
 | --- | --- |
+| `breakcircut` | Circuit breaker pattern experiments for distributed services. |
 | `kafka` | Kafka producer, consumer, and worker examples. |
 | `rabbitmq` | RabbitMQ producer and consumer examples. |
 | `redis_lock` | Redis distributed lock examples. |
@@ -95,12 +96,14 @@ Each directory generally represents a technical topic, implementation exercise, 
 | `sort` | Sorting algorithms and sorting examples. |
 | `boomfilter` | Bloom Filter implementation examples. |
 | `iter` | Iterator patterns and iterator-style programming. |
+| `generic_hash` | Generic hash table implementation and hash-based data structure experiments. |
 
 ### 📦 Serialization
 
 | Directory | Description |
 | --- | --- |
 | `protobuf` | Protocol Buffers serialization and code generation examples. |
+| `messagepack` | Binary serialization and deserialization using MessagePack. |
 | `flatbuffer` | Schema-based binary serialization with direct buffer access. |
 | `capProto` | Cap'n Proto schema-based binary serialization and generated Go code examples. |
 | `convert` | Type conversion and data format conversion examples. |
