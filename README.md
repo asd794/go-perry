@@ -78,6 +78,7 @@ Each directory generally represents a technical topic, implementation exercise, 
 | `ebpf` | eBPF examples for tracing process execution and filtering network packets at the kernel level. |
 | `iouring`| liburing based async TCP echo server |
 | `flatbuffer` | Schema-based binary serialization with direct buffer access |
+| `capProto` | Cap'n Proto schema-based binary serialization and generated Go code examples|
 
 The topic list is continuously evolving. New topics are welcome.
 
