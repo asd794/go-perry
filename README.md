@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://lh3.googleusercontent.com/d/1PyOdY6ynrZSK88chCXBWVUUpoVymLGTm" alt="go-perry Logo" width="220"/>
+</p>
+
 # go-perry
 
 A collection of Golang experiments, and topic-based examples.
@@ -5,80 +9,132 @@ Each directory generally represents a technical topic, implementation exercise, 
 
 ## Topics
 
+### 🧠 Runtime Internals
+
 | Directory | Description |
 | --- | --- |
-| `alogrithm` | Algorithms and data structures, including design, search, sort, and structure topics. |
-| `async` | Asynchronous processing examples, including producers, consumers, and background tasks. |
 | `assembly` | Experiments involving assembly, CPU registers, instructions, and memory models. |
-| `background_faktory` | Background job queue examples using Faktory. |
-| `background_gocraft` | Background job queue examples using gocraft/work. |
-| `barrier` | Goroutine synchronization using barriers. |
-| `benchmark` | Go benchmarks, CPU profiling, and memory profiling experiments. |
-| `bce` | Bound Check Elimination experiments. |
-| `boomfilter` | Bloom Filter implementation examples. |
-| `breakcircut` | Circuit Breaker implementation examples. |
+| `bce` | Bounds Check Elimination experiments. |
 | `build_tag` | Go build tags and conditional compilation examples. |
-| `cache` | Cache implementations and cached HTTP client examples. |
+| `dump` | Program dump generation and debugging experiments. |
+| `escape` | Escape analysis and memory allocation experiments. |
+| `linkname-demo` | Experimental examples using `//go:linkname`. |
+| `nosplit-demo` | Experiments with `//go:nosplit`. |
+| `pin_thread` | Experiments involving goroutines and OS thread binding. |
+| `reflect` | Go reflection experiments. |
+| `runtime` | Go runtime concepts and runtime behavior experiments. |
+| `unsafe` | `unsafe` package and low-level memory experiments. |
+
+### 🧵 Concurrency Patterns
+
+| Directory | Description |
+| --- | --- |
+| `async` | Asynchronous processing patterns, including producers, consumers, and background tasks. |
+| `barrier` | Goroutine synchronization using barriers. |
 | `channel` | Basic Go channel examples. |
 | `channel_buffered` | Buffered channel examples. |
 | `channel_unbuffered` | Unbuffered channel examples. |
-| `context` | Go context examples, including cancellation, timeouts, and value propagation. |
-| `convert` | Type conversion and data format conversion examples. |
-| `decorator` | Decorator design pattern examples. |
-| `dependency` | Dependency injection and dependency design examples. |
-| `dump` | Program dump generation and debugging experiments. |
-| `embed-demo` | Examples using Go's `embed` feature. |
+| `context` | Cancellation, timeouts, and value propagation using Go context. |
 | `errgroup` | Managing goroutines and collecting errors with `errgroup`. |
-| `escape` | Escape analysis and memory allocation experiments. |
-| `falseshare` | False sharing and performance experiments. |
-| `generator` | Generator patterns and goroutine-based generator examples. |
-| `gocron` | Scheduled job examples using gocron. |
-| `gorilla_websocket` | WebSocket server and client examples using gorilla/websocket. |
-| `gorm` | GORM examples, including models, migrations, and database operations. |
+| `generator` | Generator patterns and goroutine-based generators. |
 | `goroutine_confinement` | Goroutine confinement patterns for controlling access to shared data. |
 | `goroutine_mutex` | Goroutine synchronization using mutexes. |
-| `graphql` | GraphQL server examples. |
-| `grpc` | gRPC client/server and Protocol Buffers examples. |
-| `ipfs` | IPFS and decentralized storage experiments. |
-| `iter` | Iterator patterns and iterator-style programming. |
-| `jwt` | JWT authentication and authorization examples. |
-| `kafka` | Kafka producer, consumer, and worker examples. |
-| `linkname-demo` | Experimental examples using `//go:linkname`. |
-| `logger` | Logging and file output examples. |
-| `lsm` | LSM Tree storage engine experiments. |
-| `memcache` | Memcache usage examples. |
-| `module` | Go module usage and module organization. |
-| `multipartload` | Multipart file upload client/server examples. |
-| `nosplit-demo` | Experiments with `//go:nosplit`. |
-| `orDone&T` | Go pipeline patterns such as `orDone` and `tee`. |
-| `p2p` | Peer-to-peer networking experiments. |
-| `paseto` | PASETO authentication and security examples. |
-| `pin_thread` | Goroutine and OS thread binding experiments. |
+| `orDone&T` | Pipeline patterns such as `orDone` and `tee`. |
 | `pipeline` | Pipeline-based concurrent data processing. |
-| `pool` | Resource pool and worker pool examples. |
-| `protobuf` | Protocol Buffers serialization and code generation examples. |
-| `rabbitmq` | RabbitMQ producer and consumer examples. |
-| `ratelimit` | Rate limiting implementations and examples. |
-| `redis_lock` | Redis distributed lock examples. |
-| `reflect` | Go reflection experiments. |
-| `rss` | RSS generation and parsing examples. |
-| `runtime` | Go runtime concepts and runtime behavior experiments. |
-| `schnorr` | Schnorr signature and cryptography-related examples. |
+| `pool` | Resource pool and worker pool patterns. |
 | `singleflight` | Request deduplication using `singleflight`. |
-| `sort` | Sorting algorithms and sorting examples. |
 | `sync_map` | `sync.Map` examples. |
-| `test` | Go testing examples and experiments. |
-| `unsafe` | `unsafe` package and low-level memory experiments. |
 | `worker_pool` | Worker pool pattern examples. |
 | `workerpool` | Additional worker pool implementations and experiments. |
-| `file_tracker` | Tracking filesystem events via kernal notifications|
+
+### ⚡ Performance
+
+| Directory | Description |
+| --- | --- |
+| `benchmark` | Go benchmarks, CPU profiling, and memory profiling experiments. |
+| `cache` | Cache implementations and cached HTTP client examples. |
+| `falseshare` | False sharing and CPU cache performance experiments. |
+| `ratelimit` | Rate limiting implementations and performance-related examples. |
+| `memcache` | Memcache usage and caching experiments. |
+| `zero-copy` | Zero-copy inter-process communication and memory mapping experiments. |
+| `direct-io` | Direct I/O experiments bypassing the OS page cache. |
+
+### 🌐 Networking
+
+| Directory | Description |
+| --- | --- |
+| `gorilla_websocket` | WebSocket server and client examples using gorilla/websocket. |
+| `grpc` | gRPC client/server examples with Protocol Buffers. |
+| `graphql` | GraphQL server examples. |
+| `multipartload` | Multipart file upload client/server examples. |
+
+### 🔗 Distributed Systems
+
+| Directory | Description |
+| --- | --- |
+| `kafka` | Kafka producer, consumer, and worker examples. |
+| `rabbitmq` | RabbitMQ producer and consumer examples. |
+| `redis_lock` | Redis distributed lock examples. |
+| `p2p` | Peer-to-peer networking experiments. |
+| `ipfs` | IPFS and decentralized storage experiments. |
+
+### 💽 Storage
+
+| Directory | Description |
+| --- | --- |
+| `lsm` | LSM Tree storage engine experiments. |
+| `gorm` | GORM examples, including models, migrations, and database operations. |
+| `memcache` | Memcache usage examples. |
+| `cache` | Cache implementations and cached HTTP client examples. |
+
+### 🧮 Data Structures
+
+| Directory | Description |
+| --- | --- |
+| `alogrithm` | Algorithms and data structures, including search, sort, and structural topics. |
+| `sort` | Sorting algorithms and sorting examples. |
+| `boomfilter` | Bloom Filter implementation examples. |
+| `iter` | Iterator patterns and iterator-style programming. |
+
+### 📦 Serialization
+
+| Directory | Description |
+| --- | --- |
+| `protobuf` | Protocol Buffers serialization and code generation examples. |
+| `flatbuffer` | Schema-based binary serialization with direct buffer access. |
+| `capProto` | Cap'n Proto schema-based binary serialization and generated Go code examples. |
+| `convert` | Type conversion and data format conversion examples. |
+
+### 🔐 Security
+
+| Directory | Description |
+| --- | --- |
+| `jwt` | JWT authentication and authorization examples. |
+| `paseto` | PASETO authentication and security examples. |
+| `schnorr` | Schnorr signatures and cryptography-related examples. |
 | `x509` | X.509 certificate parsing and inspection examples. |
-| `zero-copy` | Zero copy between two process communication |
-| `direct-io`| Direct hardware I/O experiments bypassing OS page cache |
+
+### ⚙️ System Programming
+
+| Directory | Description |
+| --- | --- |
+| `file_tracker` | Tracking filesystem events through kernel notifications. |
 | `ebpf` | eBPF examples for tracing process execution and filtering network packets at the kernel level. |
-| `iouring`| liburing based async TCP echo server |
-| `flatbuffer` | Schema-based binary serialization with direct buffer access |
-| `capProto` | Cap'n Proto schema-based binary serialization and generated Go code examples|
+| `iouring` | Linux `io_uring` experiments using `liburing`, including asynchronous TCP I/O. |
+
+### 🏗️ Application Patterns
+
+| Directory | Description |
+| --- | --- |
+| `decorator` | Decorator design pattern examples. |
+| `dependency` | Dependency injection and dependency design examples. |
+| `background_faktory` | Distributed background job examples using Faktory. |
+| `background_gocraft` | Distributed background job examples using gocraft/work. |
+| `gocron` | Scheduled job examples using gocron. |
+| `logger` | Logging and file output examples. |
+| `rss` | RSS generation and parsing examples. |
+| `test` | Go testing examples and experiments. |
+| `embed-demo` | Examples using Go's `embed` feature. |
 
 The topic list is continuously evolving. New topics are welcome.
 
