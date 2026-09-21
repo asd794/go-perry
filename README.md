@@ -106,6 +106,7 @@ Each directory generally represents a technical topic, implementation exercise, 
 | `messagepack` | Binary serialization and deserialization using MessagePack. |
 | `flatbuffer` | Schema-based binary serialization with direct buffer access. |
 | `capProto` | Cap'n Proto schema-based binary serialization and generated Go code examples. |
+| `cbor` | CBOR and Canonical CBOR serialization examples, including deterministic encoding and hashing. |
 | `convert` | Type conversion and data format conversion examples. |
 
 ### 🔐 Security
