@@ -56,7 +56,7 @@ Each directory generally represents a technical topic, implementation exercise, 
 | `falseshare` | False sharing and CPU cache performance experiments. |
 | `ratelimit` | Rate limiting implementations and performance-related examples. |
 | `memcache` | Memcache usage and caching experiments. |
-| `zero-copy` | Zero-copy inter-process communication and memory mapping experiments. |
+| `zero-copy` | Linux zero-copy mechanisms and kernel data paths |
 | `direct-io` | Direct I/O experiments bypassing the OS page cache. |
 
 ### 🌐 Networking
