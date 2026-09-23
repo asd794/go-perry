@@ -117,6 +117,7 @@ Each directory generally represents a technical topic, implementation exercise, 
 | `paseto` | PASETO authentication and security examples. |
 | `schnorr` | Schnorr signatures and cryptography-related examples. |
 | `x509` | X.509 certificate parsing and inspection examples. |
+| `pqc` | Post-quantum cryptography examples using ML-KEM for shared-secret establishment and ML-DSA for digital signatures. |
 
 ### ⚙️ System Programming
 
