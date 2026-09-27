@@ -78,6 +78,7 @@ Each directory generally represents a technical topic, implementation exercise, 
 | `redis_lock` | Redis distributed lock examples. |
 | `p2p` | Peer-to-peer networking experiments. |
 | `ipfs` | IPFS and decentralized storage experiments. |
+| `otel` | OpenTelemetry distributed tracing across services, including TraceID, SpanID, parent-child relationships, and context propagation. |
 
 ### 💽 Storage
 
